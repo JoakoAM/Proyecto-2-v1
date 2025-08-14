@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Proyecto 2</title>
+    <script src="https://kit.fontawesome.com/80e5660207.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container"></div>
+    <div>
+        <div class="titulo">
+            <div>
+                <h1>Proyecto N°2 v1 </h1>
+            </div>
+            <h2>Calculadora</h2>
+            <div>
+                <h4>Esta calculadora hace los ejercicios en el orden que escribas.
+                </h4>
+            </div>
+        </div>
+        <div class="container-calc">
+            <div class="calc">
+                <div class="data">
+                    <div class="screen">
+                        <div>
+                            <span id="value"></span>
+                        </div>
+                    </div>
+                    <div class="switch" id="switchState">
+                        <input role="switch" type="checkbox" class="switch-input" id="signState">
+                        <label class="switch-input-label" id="signState"></label>
+                    </div>
+                </div>
+                <div class="signs">
+                    <button id="numberZero">0</button>
+                    <button id="signPlus">+</button>
+                    <button id="signMinus">-</button>
+                    <button id="signTimes">*</button>
+                </div>
+                <div class="numbers">
+                    <div class="line-first">
+                        <button id="numberOne">1</button>
+                        <button id="numberTwo">2</button>
+                        <button id="numberThree">3</button>
+                    </div>
+                    <div class="line-two">
+                        <button id="numberFour">4</button>
+                        <button id="numberFive">5</button>
+                        <button id="numberSix">6</button>
+                    </div>
+                    <div class="line-three">
+                        <button id="numberSeven">7</button>
+                        <button id="numberEight">8</button>
+                        <button id="numberNine">9</button>
+                    </div>
+                </div>
+                <div class="signs2">
+                    <div>
+                        <button id="signEqual">=</button>
+                    </div>
+                    <div>
+                        <div>
+                            <button class="signon" id="signOn">On</button>
+                            <button id="signOff" style="display: none;">Off</button>
+                        </div>
+                        <button id="signAc">AC</button>
+                    </div>
+                </div>
+                <div class="container-screenoff" id="screenOff">
+                    <div class="screenoffnumbers"></div>
+                    <div class="screenoff"></div>
+                    <div class="screenoffac"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav class="navBar">
+        <ul>
+            <li>
+                <div class="back-li">
+                    <a href="https://www.linkedin.com/in/jammcib/">
+                        <div class="icon-linkedin">
+                            <i class="fa-brands fa-square-linkedin"></i>
+                            <div class="back-icon"> </div>
+                        </div>
+                        <div id="container-stars">
+                            <div id="stars"></div>
+                        </div>
+                        <div id="glow">
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                    </a>
+                </div>
+            </li>
+            <li>
+                <div class="back-li">
+                    <a href="https://github.com/JoakoAM">
+                        <div class="icon-github">
+                            <i class="fa-brands fa-square-github"></i>
+                            <div class="back-icon"> </div>
+                        </div>
+                        <div id="container-stars">
+                            <div id="stars"></div>
+                        </div>
+                        <div id="glow">
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                    </a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+</body>
+<footer>
+    <script src="app.js"></script>
+</footer>
+
+</html>
